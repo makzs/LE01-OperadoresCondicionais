@@ -21,8 +21,8 @@ public class Exercicio06 {
         System.out.println("Informe a temperatura em Celsius: ");
         double x = leitor.nextDouble();
 
-        System.out.println("A temperatura " + x + " em Fahrenheit é: ");
-        Conversor(x);
+        System.out.println("A temperatura " + x + "C° em Fahrenheit é: ");
+        System.out.println(Conversor(x));
 
         leitor.close();
     }
