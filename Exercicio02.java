@@ -24,7 +24,7 @@ public class Exercicio02 {
         double y = leitor.nextDouble();
 
         System.out.println("Soma dos numeros: ");
-        Soma(x, y);
+        System.out.println(Soma(x, y));
 
         leitor.close();
     }
